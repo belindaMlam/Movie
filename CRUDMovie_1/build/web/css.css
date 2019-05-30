@@ -1,0 +1,150 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 27, 2019, 5:40:08 PM
+    Author     : chakw
+*/
+
+h1{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+a:link, a:visited {
+  background-color: black;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 10px 21px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: white;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: grey;
+}
+
+a.one:link, a.one:visited {
+  background-color: lightseagreen;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 10px 21px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.one:hover, a.one:active {
+  background-color: white;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: lightseagreen;
+}
+
+a.two:link, a.two:visited {
+  background-color: lightcoral;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 10px 21px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.two:hover, a.two:active {
+  background-color: white;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: lightcoral;
+}
+
+input[type=submit] {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-color: #4d4b44;
+    padding: 10px 21px;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+}
+
+input[type=text] {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  float: none;
+  display: block;
+  text-align: left;
+  font-size: 17px;
+  border: 1px solid black;  
+}
+
+input[type=number] {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  float: none;
+  display: block;
+  text-align: left;
+  font-size: 17px;
+  border: 1px solid black;  
+}
+
+#tables {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+#tables td, th {
+  text-align: left;
+  padding: 8px;
+}
+
+#tables tr:nth-child(even) {background-color: #f2f2f2;}
+
+#movies {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#movies td, #movies th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#movies tr:nth-child(even){background-color: #f2f2f2;}
+
+#movies tr:hover {background-color: #ddd;}
+
+#movies th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+
+.searchContainer {
+  display: inline-flex;
+  flex: 1 1 300px;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.searchIcon {
+  padding: 0.5rem;
+}
+
+.searchBox {
+  border: 0;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  flex: 1;
+}
